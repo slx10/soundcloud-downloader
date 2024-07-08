@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundcloud - Downloader</title>
+    <script src="eel.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="notifications">
+        <div class="notification" id="notification-template">
+            <div class="image-container">
+                <img>
+            </div>
+            <div class="texts">
+                <p class="notification-title">Notification Template</p>
+                <p class="notification-description">Notification Description</p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div id="controller">
+            <h1>Soundcloud</h1>
+            <h2>Downloader</h2>
+            <input placeholder="Download track" id="custom-track">
+            <p id="tracks-downloaded"></p>
+        </div>
+        <div id="tracks"></div>
+        <div class="track" id="track-template">
+            <div class="image-container">
+                <img>
+            </div>
+            <p class="track-name"></p>
+            <span class="track-author"></span>
+            <button class="track-download">Download</button>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+    <script src="js/notification.js"></script>
+</body>
+</html>

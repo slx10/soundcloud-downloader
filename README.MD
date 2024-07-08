@@ -34,5 +34,5 @@ SoundCloud Downloader is a web application designed to download and manage your 
 
 4. **Run the application**
    ```sh
-   python app.py
+   python main.py
    ```

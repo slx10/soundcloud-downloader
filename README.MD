@@ -27,7 +27,7 @@ SoundCloud Downloader is a web application designed to download and manage your 
    ```
 
 3. **Set up your OAuth token**
-   Replace the placeholder `OAUTH_TOKEN` in `app.py` with your actual SoundCloud OAuth token.
+   Replace the placeholder `OAUTH_TOKEN` in `main.py` with your actual SoundCloud OAuth token.
    ```python
    OAUTH_TOKEN = "YOUR_OAUTH_TOKEN_HERE"
    ```
